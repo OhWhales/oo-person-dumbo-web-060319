@@ -75,6 +75,9 @@ class Person
       person.happiness=y 
       return "blah blah partisan blah lobbyist"
     elsif topic == "weather"
+      x=@happiness+1 
+      self.happiness=x 
+      y=person.happiness - 1 
       return "blah blah sun blah rain"
     end 
   end 
