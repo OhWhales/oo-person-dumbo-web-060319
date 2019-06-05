@@ -74,6 +74,8 @@ class Person
       y=person.happiness-2 
       person.happiness=y 
       return "blah blah partisan blah lobbyist"
+    elsif topic == "weather"
+      return "blah blah sun blah rain"
     end 
   end 
 
