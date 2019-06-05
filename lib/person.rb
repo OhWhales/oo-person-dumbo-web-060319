@@ -71,7 +71,8 @@ class Person
     if topic == "politics"
       x=@happiness - 2 
       self.happiness=x 
-      
+      y=person.happiness-2 
+      person.happiness=y 
       return "blah blah partisan blah lobbyist"
     end 
   end 
