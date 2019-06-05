@@ -80,6 +80,8 @@ class Person
       y=person.happiness+1 
       person.happiness=y 
       return "blah blah sun blah rain"
+    elsif topic == "other"
+      return "blah blah blah blah blah"
     end 
   end 
 
