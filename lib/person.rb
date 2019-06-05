@@ -77,7 +77,8 @@ class Person
     elsif topic == "weather"
       x=@happiness+1 
       self.happiness=x 
-      y=person.happiness - 1 
+      y=person.happiness+1 
+      person.happiness=y 
       return "blah blah sun blah rain"
     end 
   end 
